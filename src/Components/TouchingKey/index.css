@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .card {
+    width: 50%;
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    color: #ffffff;
+    font-size: 50px;
+  }
+  .input {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    height: 35px;
+    width: 200px;
+    color: #fff;
+  }
+  img {
+    width: 30%;
+  }
+  
+  .inputText {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .lettersCard {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #219a6f;
+    font-weight: 900;
+  }
